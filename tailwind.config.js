@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./*.html", "./js/*.js"],
   theme: {
+    /* container: {
+      padding: "1.4rem",
+    }, */
     extend: {
       fontFamily: {
         sans: "'Work Sans', sans-serif",

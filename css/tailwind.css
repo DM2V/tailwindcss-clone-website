@@ -1,10 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 @font-face {
   font-family: "CasacadiaCode";
+  font-family: "Inter";
   src: url("/fonts/CascadiaCode.ttf");
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hover-navbar1 {
+    @apply hover:text-white;
+  }
+
+  .two-divs-together {
+    @apply flex flex-wrap items-center gap-2 cursor-pointer;
+  }
+
+  .padding-buttons {
+    @apply px-5 py-2;
+  }
+}

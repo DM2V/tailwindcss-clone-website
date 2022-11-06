@@ -13,7 +13,7 @@
 
 @layer components {
   .hover-navbar1 {
-    @apply hover:text-white;
+    @apply hover:text-white cursor-pointer;
   }
 
   .two-divs-together {
